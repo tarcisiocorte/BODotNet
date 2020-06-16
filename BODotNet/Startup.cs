@@ -29,6 +29,10 @@ namespace BODotNet
         {
             services.AddDbContext<DataContext>(x =>
                x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<DataContext>(options =>
+            options.UseSqlServer(Configuration.GetConnectionString("SQLServerConnection")));
+
             services.AddControllers();
         }
 
