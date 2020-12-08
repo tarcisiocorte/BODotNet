@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BODotNet.Models
+namespace TccpDotNet.Models
 {
     public class Cliente
     {

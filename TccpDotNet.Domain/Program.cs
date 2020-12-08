@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BODotNet.Shared
+namespace TccpDotNet.Domain
 {
     class Program
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace BODotNet.Migrations
+namespace TccpDotNet.Migrations
 {
     public partial class InitalMigratons : Migration
     {

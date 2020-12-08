@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BODotNet.Domain
+namespace TccpDotNet.Infra
 {
     class Program
     {

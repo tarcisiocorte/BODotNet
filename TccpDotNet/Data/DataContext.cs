@@ -1,7 +1,7 @@
-﻿using BODotNet.Models;
+﻿using TccpDotNet.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace BODotNet.Data
+namespace TccpDotNet.Data
 {
     public class DataContext : Microsoft.EntityFrameworkCore.DbContext 
     {
